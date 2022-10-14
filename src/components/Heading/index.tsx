@@ -13,7 +13,7 @@ export function Heading({ size = 'md', children, asChild: isChild }: HeadingProp
 
     return (
         <DefaultTag className={clsx(
-            'text-gray-100 font-bold font-sans',
+            'text-gray-900 font-bold font-sans',
             {
                 'text-lg': size === 'sm',
                 'text-xl': size === 'md',
