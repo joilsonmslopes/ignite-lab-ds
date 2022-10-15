@@ -16,6 +16,9 @@ export default {
 } as Meta<TextProps>
 
 export const TextMedium: StoryObj<TextProps> = {
+    args: {
+        children: 'Medium Text'
+    }
 }
 
 export const TextSmall: StoryObj<TextProps> = {
